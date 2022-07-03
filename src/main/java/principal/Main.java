@@ -22,7 +22,7 @@ public class Main {
             });
             config.enableCorsForAllOrigins();
 
-        }).start(7000);
+        }).start(7777);
 
         //si no hay usuario, redirecciona para que se tenga que registrar.
         app.before("/",ctx -> {
