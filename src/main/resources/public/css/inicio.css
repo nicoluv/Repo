@@ -1,0 +1,32 @@
+header{
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(196, 99, 159) 0%, rgb(149, 186, 219) 100%);
+    background-size: cover;
+}
+
+#title{
+    font-style:italic;
+    font-weight:bold;
+    font-size:3em;
+    margin-top:10px;
+    margin-left: 30%;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    display: block !important;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.card{
+    background-color: #84b4bf;
+    background-image: url('fondo.jpg');
+    margin: 1rem;
+    padding: 9rem;
+    text-align: center;
+    display: block !important;
+    border-radius: 50px;
+    font-weight: bold;
+    font-style: italic;
+    font-size:3em;
+
+}
